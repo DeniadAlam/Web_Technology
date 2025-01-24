@@ -1,0 +1,61 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Receipt container */
+.details, .book-list {
+    width: 600px;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+/* Header styles */
+.details h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    color: #444;
+}
+
+/* Info sections */
+.details .info, .book-list .book, .book-list .Dates {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Paragraph styles */
+.details p, .book-list p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .details, .book-list {
+        width: 90%;
+    }
+
+    .details h1 {
+        font-size: 18px;
+    }
+
+    .details p, .book-list p {
+        font-size: 12px;
+    }
+}

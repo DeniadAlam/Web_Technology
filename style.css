@@ -1,0 +1,128 @@
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+body {
+    margin: 0; 
+    min-height: 100vh; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    
+}
+.head{
+    height: 100px;
+    width: 1300px;
+}
+.outerclass{
+    height: 1000px;
+    width: 1300px;
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+    
+    
+}
+.leftBox{
+    height: 955px;
+    width: 600px;
+    border:1px solid rgb(0, 0, 0);    
+}
+.middleBox{
+    height: 1000px;
+    width: 400px;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    align-content: center;
+
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.box1{
+    height:120px;
+    width: 400px;
+    border:1px solid rgb(0, 0, 0);    text-align: center;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+.box2{
+    height:100px;
+    width: 122.5px;
+    border:1px solid rgb(0, 0, 0);    
+}
+.third {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    border:1px solid rgb(0, 0, 0);  
+}
+
+.fourth{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+.box4{
+    height:440px;
+    width: 250px;
+    border:1px solid rgb(0, 0, 0);    text-align: center;
+}
+.box5{
+    height:440px;
+    width: 130px;
+    border:1px solid rgb(0, 0, 0);}
+.rightBox{
+    height: 996px;
+    width: 400px;
+    border:1px solid rgb(0, 0, 0);    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.box7{
+    height:120px;
+    width: 250px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+    
+}
+.box8{
+    height:130px;
+    width: 120.5px;
+    border:1px solid rgb(0, 0, 0);    align-items: center;
+}
+.box9{
+    height:500px;
+    width: 350px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border:1px solid rgb(0, 0, 0);    
+}
+.dead{
+    height: 50px;
+    width: 1300px;
+}
+.book-results{
+    height:420px;
+    width: 400px;
+    border:1px solid rgb(0, 0, 0);
+    text-align: center;
+}

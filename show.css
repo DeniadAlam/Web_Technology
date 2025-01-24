@@ -1,0 +1,19 @@
+
+.wrapper{
+    height:200px;
+    width:300px;
+    border:1px rebeccapurple solid;
+    padding-top: 10px;
+    float:left;
+   
+}
+.pic{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    border: 3px maroon dotted;
+    
+
+}
+
+
