@@ -1,3 +1,3 @@
 # Web_Technology
 
-Libraryh Management System
+Library Management System
